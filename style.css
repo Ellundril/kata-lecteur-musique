@@ -146,9 +146,23 @@ h2 {
 
 .boutons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 4rem;
   padding-top: 0.8rem;
 }
+.contenu {
+  display: flex;
+  flex-direction: column;
+}
 /* ---------- TODO 6 — Grand écran (768px et plus) ---------- */
+@media (min-width: 768px) {
+  .contenu {
+    flex-direction: row;
+    gap: 1rem;
+    margin: auto 1.5rem;
+  }
+  .playlist {
+    flex-grow: 1;
+  }
+}
