@@ -132,6 +132,20 @@ h2 {
   gap: 0.8rem;
   padding: 10px 8px;
 }
+
+.active {
+  font-weight: bold;
+  color: #f2d16b;
+  .piste-artiste {
+    color: #bbac7f;
+  }
+  .numero {
+    color: #bbac7f;
+  }
+  .duree {
+    color: #bbac7f;
+  }
+}
 .piste-infos {
   flex-grow: 1;
 }
