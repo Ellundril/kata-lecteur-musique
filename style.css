@@ -158,6 +158,7 @@ h2 {
 .barre {
   flex-grow: 1;
 }
+
 .controles {
   position: sticky;
   bottom: 0px;
@@ -212,5 +213,10 @@ h2 {
 
 /* ========== QUESTIONS DE RECUL =========== */
 /*
-1.  
+1.  Dans .en-cours, flex-direction est réglée sur column donc l'axe principal de la flexbox est l'axe vertical et l'axe secondaire l'axe horizontal. Or align-items agit sur l'axe secondaire qui est donc dans cette situation l'axe horizontal. C'est l'inverse pour une flexbox dont la flex-direction est row.
+
+2. Si je retire flex-grow, la barre de progression ne prendra pas toute la largeur disponible. 
+flex-grow:1 signifie qu'elle prend 100% de l'espace disponible dans le conteneur. Si je le met aussi sur les deux temps, l'espace libre sera divisé en 3 parties égales, puisqu'ils doivent prendre chacun 100% de l'espace libre laissé par les deux autres. 
+
+3. D'une part, il est plus simple de partir du mobile et ensuite d'adapter au grand écran, cela nécessite moins d'ajustements. D'autre part, maintenant une grande partie de la population consulte majoritairement les sites et autres applis sur mobile, il faut donc que nos sites soient vraiment pensés pour. En plus, un site en version mobile peut quand même être lisible sur grand écran(même si bien sûr ce n'est pas idéal) alors que l'inverse n'est pas vrai. 
  */
