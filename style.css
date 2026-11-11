@@ -125,7 +125,15 @@ h2 {
   gap: 0.5rem;
 }
 /* ---------- TODO 4 — Une piste de la playlist ---------- */
-
+.piste {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  padding: 10px 8px;
+}
+.piste-infos {
+  flex-grow: 1;
+}
 /* ---------- TODO 5 — La barre de contrôle ---------- */
 
 /* ---------- TODO 6 — Grand écran (768px et plus) ---------- */
