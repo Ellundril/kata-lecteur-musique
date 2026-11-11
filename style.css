@@ -154,8 +154,13 @@ h2 {
   display: flex;
   gap: 0.5rem;
 }
+
 .barre {
   flex-grow: 1;
+}
+.controles {
+  position: sticky;
+  bottom: 0px;
 }
 
 .boutons {
