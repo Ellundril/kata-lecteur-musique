@@ -91,6 +91,7 @@
         />
         <span class="temps">3:42</span>
       </div>
+
       <div class="boutons">
         <button type="button" class="bouton-icone" aria-label="précédent">
           ⏮
@@ -101,6 +102,21 @@
         <button type="button" class="bouton-icone" aria-label="suivant">
           ⏭
         </button>
+        <div class="volume">
+          <label for="barre-volume">Volume</label>
+          <div>
+            <span class="son">0</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="25"
+              class="barre"
+              id="barre-volume"
+            />
+            <span class="son">100</span>
+          </div>
+        </div>
       </div>
     </footer>
   </body>

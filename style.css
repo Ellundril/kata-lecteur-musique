@@ -162,6 +162,10 @@ h2 {
   position: sticky;
   bottom: 0px;
 }
+.volume {
+  display: none;
+  color: #a3a1b8;
+}
 
 .boutons {
   display: flex;
@@ -183,5 +187,12 @@ h2 {
   }
   .playlist {
     flex-grow: 1;
+  }
+  .boutons {
+    justify-content: flex-end;
+  }
+  .volume {
+    display: flex;
+    flex-direction: column;
   }
 }
