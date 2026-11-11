@@ -31,6 +31,7 @@ h2 {
   letter-spacing: 0.08em;
   color: #a3a1b8;
   margin-bottom: 12px;
+  margin-left: 8px;
 }
 
 .logo {
@@ -135,5 +136,19 @@ h2 {
   flex-grow: 1;
 }
 /* ---------- TODO 5 — La barre de contrôle ---------- */
+.progression {
+  display: flex;
+  gap: 0.5rem;
+}
+.barre {
+  flex-grow: 1;
+}
 
+.boutons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 0.8rem;
+}
 /* ---------- TODO 6 — Grand écran (768px et plus) ---------- */
