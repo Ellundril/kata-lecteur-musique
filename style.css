@@ -189,10 +189,28 @@ h2 {
     flex-grow: 1;
   }
   .boutons {
-    justify-content: flex-end;
+    justify-self: center;
+    flex-grow: 1;
   }
-  .volume {
+  .controleurs {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+    .volume {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 }
+
+@media (min-width: 1024px) {
+  body {
+    max-width: 80vw;
+    margin: 0 auto;
+  }
+}
+
+/* ========== QUESTIONS DE RECUL =========== */
+/*
+1.  
+ */
